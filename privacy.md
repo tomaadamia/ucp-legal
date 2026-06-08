@@ -4,7 +4,7 @@ title: Privacy Policy
 
 # UCP // Fluent — Privacy Policy
 
-**Last updated: [SET DATE]**
+**Last updated: June 8, 2026**
 
 This Privacy Policy explains how **Aurina AI LLC**, doing business as **UCP // Fluent** ("UCP Fluent," "we," "us"), handles data when a Shopify merchant ("you," "Merchant") installs and uses the UCP // Fluent app (the "App"). We built the App around data minimization: we use the least data needed to provide the service, and we never sell personal data.
 
@@ -40,7 +40,7 @@ We use the data above solely to provide the App's features — product identity,
 - **Shopify** — the platform on which the App runs.
 
 ## 6. Retention
-We retain product/catalog data while the App is installed. Hashed/truncated attribution records are retained for up to **[24 months — confirm]**, after which they are deleted. When you uninstall the App, we stop processing your store's data and delete or anonymize it as described in Section 7.
+We do not store raw customer personal data — the only customer-derived values we keep are a one-way **SHA-256 hash of the order email** and a **/24-truncated IP address**, used solely for attribution (pseudonymized). We retain product/catalog data and these pseudonymized attribution records for as long as the App is installed by your store. When you uninstall the App we stop processing your store's data; on a `shop/redact` request we delete your store's data, and we honor `customers/redact` requests, within Shopify's 30-day compliance window (see Section 7).
 
 ## 7. Deletion & data-subject rights
 We honor Shopify's mandatory privacy webhooks:

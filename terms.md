@@ -4,7 +4,7 @@ title: Terms of Service
 
 # UCP // Fluent — Terms of Service
 
-**Last updated: [SET DATE]**
+**Last updated: June 8, 2026**
 
 These Terms of Service ("Terms") govern your use of the **UCP // Fluent** application (the "App") provided by **Aurina AI LLC**, doing business as UCP // Fluent ("we," "us"). By installing or using the App, you ("Merchant," "you") agree to these Terms.
 
@@ -48,7 +48,7 @@ These Terms apply while the App is installed. You may stop using the App at any 
 We may update these Terms; material changes will be reflected by updating the "Last updated" date above. Continued use after changes constitutes acceptance.
 
 ## 11. Governing law
-These Terms are governed by the laws of **[Georgia — or your chosen jurisdiction; confirm with counsel]**, without regard to conflict-of-laws rules.
+These Terms are governed by the laws of **Georgia (the country)**, where Aurina AI LLC is registered, without regard to conflict-of-laws rules.
 
 ## 12. Contact
 **Aurina AI LLC** d.b.a. UCP // Fluent — toma@ucpfluent.com

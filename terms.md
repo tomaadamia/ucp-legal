@@ -18,7 +18,7 @@ UCP // Fluent helps Shopify merchants prepare their catalogs for AI-assisted sho
 Features may change as the App and the agentic-commerce ecosystem evolve.
 
 ## 2. Plans, billing, and fees
-The App is offered on paid subscription plans billed through **Shopify Billing**. Plan prices and limits are shown in the App and on our App Store listing. By selecting a plan you authorize the recurring charge via Shopify. You may change or cancel your plan through Shopify; cancellation stops future charges and may reduce or disable paid features.
+The App is offered on paid subscription plans, plus optional consumable **usage credits** that fund Product Authentication and Semantic Enrichment — all billed through **Shopify Billing**. Plan prices, credit pricing, and limits are shown in the App and on our App Store listing. By selecting a plan or purchasing credits, you authorize the corresponding charge via Shopify. You may change or cancel your subscription through Shopify; cancellation stops future recurring charges and may reduce or disable paid features. Credits are consumable and are non-refundable once used.
 
 ## 3. Merchant responsibilities
 You are responsible for:

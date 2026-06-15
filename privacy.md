@@ -1,7 +1,3 @@
----
-title: Privacy Policy
----
-
 # UCP // Fluent — Privacy Policy
 
 **Last updated: June 8, 2026**
@@ -40,7 +36,7 @@ We use the data above solely to provide the App's features — product identity,
 - **Shopify** — the platform on which the App runs.
 
 ## 6. Retention
-We do not store raw customer personal data — the only customer-derived values we keep are a one-way **SHA-256 hash of the order email** and a **/24-truncated IP address**, used solely for attribution (pseudonymized). We retain product/catalog data and these pseudonymized attribution records for as long as the App is installed by your store. When you uninstall the App we stop processing your store's data; on a `shop/redact` request we delete your store's data, and we honor `customers/redact` requests, within Shopify's 30-day compliance window (see Section 7).
+We do not store raw customer personal data — the only customer-derived values we keep are a one-way **SHA-256 hash of the order email** and a **/24-truncated IP address**, used solely for attribution (pseudonymized). We retain product/catalog data for as long as the App is installed by your store. Pseudonymized attribution records (the hashed email and truncated IP described above) are retained for up to **24 months**, after which they are automatically purged. When you uninstall the App we stop processing your store's data; on a `shop/redact` request we delete your store's data, and we honor `customers/redact` requests, within Shopify's 30-day compliance window (see Section 7).
 
 ## 7. Deletion & data-subject rights
 We honor Shopify's mandatory privacy webhooks:

@@ -10,12 +10,12 @@ UCP // Fluent is billed through Shopify (the Shopify Billing API). Plans are pri
 
 ## Subscription plans
 
-| Plan | Monthly | Yearly (10% off) | Catalog | First-payment bonus |
-|---|---|---|---|---|
-| **Starter** | $49 / mo | $529.20 / yr | Up to 100 variants | 49 bonus credits |
-| **Standard** | $199 / mo | $2,149.20 / yr | Up to 1,000 variants | 199 bonus credits |
-| **Pro** | $399 / mo | $4,309.20 / yr | Up to 5,000 variants | 399 bonus credits |
-| **Scale** | Custom — contact support | — | 5,000+ variants | Custom |
+| Plan | Monthly | Catalog | First-payment bonus |
+|---|---|---|---|
+| **Starter** | $49 / mo | Up to 100 variants | 49 bonus credits |
+| **Standard** | $199 / mo | Up to 1,000 variants | 199 bonus credits |
+| **Pro** | $399 / mo | Up to 5,000 variants | 399 bonus credits |
+| **Scale** | Custom — contact support | 5,000+ variants | Custom |
 
 Every plan includes **Identity** (GS1 GTIN + GPC categories), **Semantic Enrichment**, **Agent-readiness monitoring** (Agent Trust Score), and **AI-agent sales Attribution**.
 

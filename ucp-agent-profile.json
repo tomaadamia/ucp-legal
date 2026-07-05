@@ -1,0 +1,27 @@
+{
+  "ucp": {
+    "version": "2026-04-08",
+    "services": {
+      "dev.ucp.shopping": [
+        {
+          "version": "2026-04-08",
+          "spec": "https://ucpfluent.com/ucp/spec.json",
+          "transport": "rest",
+          "schema": "https://ucpfluent.com/ucp/schema.json",
+          "endpoint": "https://ucpfluent.com/api/ucp"
+        }
+      ]
+    },
+    "capabilities": {
+      "dev.ucp.shopping.catalog.search": [{ "version": "2026-04-08" }],
+      "dev.ucp.shopping.catalog.lookup": [{ "version": "2026-04-08" }],
+      "dev.shopify.catalog.storefront": [
+        {
+          "version": "2026-04-08",
+          "extends": ["dev.ucp.shopping.catalog.search", "dev.ucp.shopping.catalog.lookup"]
+        }
+      ]
+    },
+    "payment_handlers": {}
+  }
+}

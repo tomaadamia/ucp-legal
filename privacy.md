@@ -1,6 +1,6 @@
 # UCP // Fluent — Privacy Policy
 
-**Last updated: July 11, 2026**
+**Last updated: November 6, 2026**
 
 This Privacy Policy explains how **Aurina AI LLC**, doing business as **UCP // Fluent** ("UCP Fluent," "we," "us"), handles data when a Shopify merchant ("you," "Merchant") installs and uses the UCP // Fluent app (the "App"). We built the App around data minimization: we use the least data needed to provide the service, and we never sell personal data.
 
@@ -31,12 +31,13 @@ We use the data above solely to provide the App's features — product identity,
 
 ## 5. Data minimization & security
 - Customer email is SHA-256 hashed and buyer IP is /24-truncated immediately on receipt; raw values are never stored.
-- Data is encrypted in transit (TLS 1.2+) and at rest using the controls of our infrastructure provider, Google Cloud Platform.
+- Data is encrypted in transit (TLS 1.2+) and at rest using the controls of our infrastructure providers, Amazon Web Services and Google Cloud Platform.
 - Access is limited to the App's automated processing pipeline and a small number of authorized personnel.
 - We perform regular internal security reviews. We do not currently hold third-party certifications such as SOC 2 or ISO.
 
 ## 6. Subprocessors
-- **Google Cloud Platform** — hosting, databases, and storage (all data).
+- **Amazon Web Services (AWS)** — hosting the App, its databases, and its cache (all data), in the US East (N. Virginia) region.
+- **Google Cloud Platform** — data warehouse (BigQuery) for catalog and attribution data, file storage, scheduled jobs, and routing requests to our AWS servers.
 - **Google Vertex AI** — generating product-attribute enrichment. Only **product/catalog data** is sent; **customer personal data is never sent to enrichment providers.**
 - **Barcode Lookup / OpenFoodFacts** — looking up existing product GTINs. Only **product identifiers** are sent; no customer data.
 - **Shopify** — the platform on which the App runs.
